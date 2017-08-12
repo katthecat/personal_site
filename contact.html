@@ -140,7 +140,7 @@
 				background-color: white;
 				align-self: center;
 				width: 90%;
-				height: 559px;
+				height: 338px;
 				margin-top: 0;
 				margin-left: 5%;
 				margin-right: 5%;
@@ -214,6 +214,11 @@
 			    background-color: #f2f2f2;
 			    padding: 20px;
 			}
+			input {
+				height: 60px;
+				width: 247px;
+				font-size: 14pt;
+			}
 		</style>
 	</head>
 	<body>
@@ -235,22 +240,15 @@
 		<div class = "header"> </div>
 		<div class = "info_container">
 			<div class="container">
-  				<form action="/action_page.php">
-   					<label for="fname">First Name</label>
-				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-				    <label for="lname">Last Name</label>
-				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-				    <label for="country">Country</label>
-				    <select id="country" name="country">
-				      <option value="australia">Australia</option>
-				      <option value="canada">Canada</option>
-				      <option value="usa">USA</option>
-    				</select>
-				    <label for="subject">Subject</label>
-				    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    			<input type="submit" value="Submit">
-			  </form>
-</div>
+  				<h2>Personal Email:</h2>
+				<form action="mailto:kat.carsley@gmail.com" method="post" enctype="text/plain">
+					<input type="submit" value="Send">
+				</form>
+				<h2>School Email:</h2>
+				<form action="mailto:100020626@mvla.com" method="post" enctype="text/plain">
+					<input type="submit" value="Send">
+				</form>
+			</div>
 		</div>
 		<script>
 			/* When the user clicks on the button, 
