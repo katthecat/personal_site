@@ -1,0 +1,27 @@
+body {
+	background-image: url("DSCN0479.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.heading {
+	width: 97%;
+	height: 60px;
+	background-color: rgba(249,249,249,0.9);
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 24pt;
+	vertical-align: center;
+	padding-left: 15px;
+	line-height: 60px;
+	border-radius: 5px;
+}
+.title {
+	width: 20%;
+	height: 70px;
+	min-width: 280px;
+}
+.nav {
+	background-color: blue;
+}

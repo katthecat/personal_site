@@ -1,0 +1,225 @@
+<!--Version 0.2 || Kat's Site About Me-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<style>
+			.topper {
+				background-color: #212223;
+				height: 25px;
+				font-size: 12pt;
+				font-family: Verdana;
+				color: white;
+				text-align: center;
+				width: 100%;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			body {
+				background-image: url("california-tumblr-wallpaper-background.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: top;
+				background-size: cover;
+			}
+			.heading {
+				display: -webkit-flex;
+				display: flex;
+				width: 100%;
+				height: 60px;
+				background-color: rgba(249,249,249,0.9);
+				font-family: Verdana;
+				font-weight: bold;
+				font-size: 24pt;
+				vertical-align: center;
+				padding-left: 15px;
+				line-height: 60px;
+				position: absolute;
+				right: 0px;
+				top: 25px;
+			}
+			.title {
+				height: 60px;
+				min-width: 300px;
+				width: 30%;
+			}
+			.nav {
+				width: 100%;
+				height: 60px;
+				min-width: 35px;
+				text-align: center;
+				padding-left: 0px;
+				font-size: 10pt;
+				line-height: 60px;
+			}
+			/* Dropdown button */
+			.dropdown {
+			    float: left;
+			    overflow: hidden;
+			    border-style: hidden hidden hidden solid;
+			    line-height: 60px;
+			    border-color: grey;
+			    height: 60px;
+			}
+
+			.dropdown .dropbtn {
+				font-family: Verdana;
+				font-weight: bold;
+			    cursor: pointer;
+			    font-size: 20px;    
+			    border: none;
+			    outline: none;
+			    color: black;
+			    padding: 14px 16px;
+			    background-color: inherit;
+			}
+			.dropbtn {
+				width: 120px;
+				height: 68px;
+				font-size: 20px;
+				top: -5px;
+			}
+
+			.container a:hover, .dropdown:hover .dropbtn {
+			    background-color: rgba(0,0,0,0.2);
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: rgba(249,249,249,0.9);
+			    width: 178px;
+			    height: 220px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			}
+
+			.dropdown-content a {
+			    float: none;
+			    color: black;
+			    padding: 12px 16px;
+			    text-decoration: none;
+			    display: block;
+			    text-align: left;
+			    font-size: 15px;
+			    line-height: 50px;
+			}
+
+			.dropdown-content a:hover {
+			    background-color: #ddd;
+			}
+
+			.show {
+			    display: block;
+			}
+			.dropdownContainer {
+				position: absolute;
+				right:-40px ;
+				width: 160px;
+				height: 0px;
+				background-color: blue;
+			}
+			.blurb {
+				background-image: url("ezgif.com-optimize.gif");
+				margin-top: 500px;
+				width: 560px;
+				height: 70px;
+				position: absolute;
+				left: 20px;
+				bottom: 10%;
+			}
+			.header {
+				height: 150px;
+				background-image: url("picturetopeople.org-3ef5afcbc75746b21c1e98bce45dc1a85ae13baab9ba84b394.png");
+				background-repeat: no-repeat;
+				background-position: top;
+				margin-top: 100px;
+			}
+			.info_container {
+				background-color: white;
+				align-self: center;
+				width: 90%;
+				height: 1000px;
+				margin-top: 0;
+				margin-left: 5%;
+				margin-right: 5%;
+				border-style: hidden solid solid solid;
+				border-color: grey;
+				border-width: 5px;
+				padding-top: 30px;
+			}
+			.image_container {
+				width: 80%;
+				height: 350px;
+				background-image: url("FullSizeRender 3.jpg");
+				background-repeat: no-repeat;
+				background-position: center;
+				margin-left: 10%;
+				margin-right: 10%;
+				margin-top: 15px;
+			}
+			.text_blurb {
+				width: 80%;
+				height: 30px;
+				margin-top: 10px;
+				color: rgb(28, 28, 28);
+				font-family: Verdana;
+				margin-right: 10%;
+				margin-left: 10%;
+				font-size: 12pt;
+				font-weight: bold;
+			}
+			.information {
+				width: 80%;
+				height: 200px;
+				margin-top: 10px;
+				color: rgb(28, 28, 28);
+				font-family: Verdana;
+				margin-right: 10%;
+				margin-left: 10%;
+				font-size: 10pt;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "topper"> Los Altos High School - 10th Grade</div>
+		<div class = "heading"> 
+			<div class = "title"> Katherine Nasif </div> 
+			<div class = "dropdownContainer">
+				<div class="dropdown">
+				    <button class="dropbtn" onclick="myFunction()"">Explore</button>
+				    <div class="dropdown-content" id="myDropdown">
+				      <a href="file:///Users/katnasif/Desktop/personalSite/layout.html#">Home</a>
+				      <a href="file:///Users/katnasif/Desktop/personalSite/skills.html">Skills</a>
+				      <a href="file:///Users/katnasif/Desktop/personalSite/contact.html">Contact</a>
+				    </div>
+				</div> 
+			</div>
+		</div>
+		<!-- NEW STUFF GOES BELOW-->
+		<div class = "header"> </div>
+		<div class = "info_container">
+			<div class = "image_container"> </div>
+			<div class = "text_blurb"> I am a 10th grader at Los Altos High School who's passion lies in idea development and engineering. </div>
+			<div class = "information"> <br/> At school, I am involved in many activities and extra curriculars. <br/> <br/>Currently, I am a <b>member of the Los Altos Hacks III outreach team</b>. My job is to help advertise the hackathon through various social media outlets. When needed, I also help our hackathon recruit sponsors. I am a part of the team because I first learned how much I enjoy programming at a hackathon during my freshman year. I just loved how coding gave you the ability to create literally anything you wanted to (including this website!). From then on, I have attended hackathons almost on a bimonthly-basis. <br/> <br/> I am also the <b>current treasurer of the Los Altos Hacks club</b> on campus. Within the club, our goal is to educate and provide the community and resources necessary to foster a love of computer science among students on campus. <br/> <br/> I am also <b>the co-founder of a logic club </b> on campus. The goal of this club is provide students with a place to work on their independent projects, where they can collaborate and participate in peer learning for the principles of logic. We will be using Arduino in order to learn these key electrical and computer science principles. More information will be given on this club as the school year starts. <br/> <br/> I always have <b>side-projects</b> going on. During my middle school years, I would use the library's lazer cutter to make my own mechanical art projects. During my freshman year, I designed and made a jewelry box for my best friend. Now that I'm a little older, I enjoy working with Arduino on electronics-based projects. Currently, I am working on a robotic cat toy that I can control via remote control. <br/> <br/> Along with non-engineering disciplines, I also have a passion for running. During the fall and spring seasons, I run <b>cross country and track </b>. During track season, I train for the heptathalon, a seven event competition where atheletes compete in different events for points. <br/> <br/> I may have a busy schedule, but I will always find the time to email someone back if they want to contact me. <b>Feel free to contact me</b> using the side-bar above. </div>
+		</div>
+		<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+			  if (!e.target.matches('.dropbtn')) {
+			    var myDropdown = document.getElementById("myDropdown");
+			      if (myDropdown.classList.contains('show')) {
+			        myDropdown.classList.remove('show');
+			      }
+			  }
+			}
+		</script>
+	</body>
+</html>
